@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khand', sans-serif;
+}
+body{
+    background-image: url(./imgs/pexels-engin-akyurt-1769271.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#logo{
+    position: relative;
+    bottom: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.log-in{
+    height: 100vh;
+    width: 50%;
+    background-color: #FFD801;
+    display: grid;
+    grid-template-columns: repeat(2,fr);    
+}
+.formulario{
+    place-self: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.formulario p{
+    margin-top: 10px;
+}
+.formulario input{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.formulario #inputEnviar{
+    margin-top: 50px;
+}
+

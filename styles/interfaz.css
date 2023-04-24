@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khand', sans-serif;
+}
+body{
+    overflow-y: hidden;
+}
+.barra-navegacion{
+    width: 100%;
+    height: 50px;
+    background-color:#FFD801;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.barra-navegacion #parte-logo{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.barra-navegacion #parte-logo a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.barra-navegacion #parte-usuario{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.barra-navegacion #parte-usuario a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 50px;
+}
+
+.lista-opciones{
+    margin-top: 0px;
+    width: 150px;
+    height: 100vw;
+    background-color: #FFD801;
+    position: fixed;
+    position: absolute;
+    right: 0px;
+}
+.lista-opciones a{
+    list-style: none;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.lista-opciones a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.lista-opciones #Cerrar-sesion{
+    margin-top: 400px;
+}
+.lista-opciones #Cerrar-sesion:hover{
+    color: black;
+}
+.contenido-principal{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 625px;
+}
+.contenido-principal div{
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+    color: #FFD801;
+}
+.contenido-principal div p{
+    margin-top: 20px;
+    color: black;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Khand', sans-serif;
+}
+.seccion-principal{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.seccion-imagen{
+    background-image: url(./imgs/pexels-oleksandr-pidvalnyi-375510.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.seccion-registro{
+    background-color: #FFD801;
+}
+.seccion-registro .formulario{
+    padding-top: 100px;
+    place-self: center;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.seccion-registro .formulario #logo{
+    position: relative;
+    bottom: 90px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.seccion-registro input{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+}
